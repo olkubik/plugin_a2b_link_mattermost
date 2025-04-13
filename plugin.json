@@ -1,0 +1,18 @@
+{
+  "id": "a2b_link",
+  "name": "A2B Link",
+  "description": "Provides quick access to A2B",
+  "icon_path": "assets/icon.svg",
+  "min_server_version": "5.2.0",
+    "server": {
+        "executables": {
+            "linux-amd64": "server/dist/plugin-linux-amd64",
+            "darwin-amd64": "server/dist/plugin-darwin-amd64",
+            "windows-amd64": "server/dist/plugin-windows-amd64.exe"
+        }
+    },
+  "webapp": {
+    "bundle_path": "webapp/dist/main.js"
+  }
+
+}
